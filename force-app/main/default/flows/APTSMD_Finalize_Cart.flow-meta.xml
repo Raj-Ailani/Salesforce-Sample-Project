@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>APTSMD_Call_Finalize_Cart</name>
+        <label>Call Finalize Cart</label>
+        <locationX>176</locationX>
+        <locationY>242</locationY>
+        <actionName>APTSMD_FlowHelper</actionName>
+        <actionType>apex</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>APEX_CLASS_NAME</name>
+            <value>
+                <stringValue>APTSMD_FinalizeCart</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>PARAM_1</name>
+            <value>
+                <elementReference>APTSMD_Get_Configuration_Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>APTSMD_FlowHelper</nameSegment>
+    </actionCalls>
+    <apiVersion>59.0</apiVersion>
+    <description>MDO: Auto-launched flow to finalize the cart from button click at Product Configuration record.</description>
+    <environments>Default</environments>
+    <interviewLabel>Finalize Cart {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Finalize Cart</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>APTSMD_Get_Configuration_Record</name>
+        <label>Get Configuration Record</label>
+        <locationX>176</locationX>
+        <locationY>134</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>APTSMD_Call_Finalize_Cart</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>APTSMD_CartId</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Apttus_Config2__ProductConfiguration__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>APTSMD_Get_Configuration_Record</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>APTSMD_CartId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+</Flow>

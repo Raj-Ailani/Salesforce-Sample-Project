@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>58.0</apiVersion>
+    <description>MDO: This flow sets latest Content Document Id on Agreement whenever Document Version gets created or updated</description>
+    <environments>Default</environments>
+    <interviewLabel>Update Latest Content Document Id On Agreement {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Update Latest Content Document Id On Agreement</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_Document_Version_Detail_Record</name>
+        <label>Get Document Version Detail Record</label>
+        <locationX>176</locationX>
+        <locationY>323</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Update_Agreement_Record</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Apttus__LatestVersionId__c</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Apttus__DocumentVersionDetail__c</object>
+        <queriedFields>Id</queriedFields>
+        <queriedFields>Apttus__ContentId__c</queriedFields>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_Agreement_Record</name>
+        <label>Update Agreement Record</label>
+        <locationX>176</locationX>
+        <locationY>431</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Apttus__AgreementId__c</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>APTSMD_Latest_Content_Document_Id__c</field>
+            <value>
+                <elementReference>Get_Document_Version_Detail_Record.Apttus__ContentId__c</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Apttus__APTS_Agreement__c</object>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Get_Document_Version_Detail_Record</targetReference>
+        </connector>
+        <object>Apttus__DocumentVersion__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

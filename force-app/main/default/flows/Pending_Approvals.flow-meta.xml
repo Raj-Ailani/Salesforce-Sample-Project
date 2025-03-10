@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>PendingApprovals</name>
+        <label>PendingApprovals</label>
+        <locationX>533</locationX>
+        <locationY>283</locationY>
+        <actionName>APTSMD_MaxResolveQuery</actionName>
+        <actionType>apex</actionType>
+        <inputParameters>
+            <name>fieldToSave</name>
+            <value>
+                <stringValue>Apttus_Approval__Initial_Submitter__c</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>notificationType</name>
+            <value>
+                <stringValue>pendingApprovals</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>query</name>
+            <value>
+                <stringValue>show all the agreement approval requests that were created before yesterday and are assigned</stringValue>
+            </value>
+        </inputParameters>
+        <nameSegment>APTSMD_MaxResolveQuery</nameSegment>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </actionCalls>
+    <apiVersion>49.0</apiVersion>
+    <interviewLabel>Pending Approvals {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Pending Approvals</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>50</locationX>
+        <locationY>50</locationY>
+        <connector>
+            <targetReference>PendingApprovals</targetReference>
+        </connector>
+        <schedule>
+            <frequency>Daily</frequency>
+            <startDate>2020-10-01</startDate>
+            <startTime>00:00:00.000Z</startTime>
+        </schedule>
+        <triggerType>Scheduled</triggerType>
+    </start>
+    <status>Draft</status>
+</Flow>
