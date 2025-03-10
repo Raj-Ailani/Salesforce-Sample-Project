@@ -6,7 +6,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.APTSMD_Add_Termination_for_Cause__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -16,17 +16,17 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.APTSMD_Amended_Terms__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.APTSMD_Annual_Uplift__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.APTSMD_Auto_Send_For_Signature__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -51,17 +51,17 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.APTSMD_Engagement_Duration_Weeks__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.APTSMD_Engagement_Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.APTSMD_External_ID__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -81,17 +81,17 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.APTSMD_Latest_Content_Document_Id__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.APTSMD_Limitation_of_Liability_Value__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.APTSMD_MassAmended__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -106,27 +106,27 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.APTSMD_PortalAgmntPrimaryCont__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.APTSMD_Portal_Agreement_Request_Email__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.APTSMD_Portal_Agreement_Request_Name__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.APTSMD_Portal_Agreement_Request__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.APTSMD_Primordial_Agreement__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -136,7 +136,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.APTSMD_Region__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -146,22 +146,22 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.APTSMD_SLA__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.APTSMD_SOW_Title__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.APTSMD_Select_Clauses__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.APTSMD_Selected__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -171,7 +171,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.APTSMD_Sign_or_Review__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -181,7 +181,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.APTSMD_Support_Exhibits__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -201,7 +201,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.APTSMD_Type_Of_Paper__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -216,67 +216,67 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.APTSMD_What_is_being_disclosed__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_Approval__Approval_Status__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_Approval__LineItem_Approval_Status__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_Approval__Term_Exception_Approval_Status__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_CMConfig__ABOType__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_CMConfig__AutoActivateOrder__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_CMConfig__AutoCreateBill__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_CMConfig__AutoCreateRevenue__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_CMConfig__BillToAccountId__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_CMConfig__BillingPreferenceId__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_CMConfig__ConfigurationEffectiveDate__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_CMConfig__ConfigurationFinalizedDate__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_CMConfig__ConfigurationSyncDate__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -291,137 +291,137 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_CMConfig__DisableCartVersioning__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_CMConfig__IncentivePeriodEndDate__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_CMConfig__IncentivePeriodStartDate__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_CMConfig__IncentivePeriodStatus__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_CMConfig__Intent__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_CMConfig__IsAutoActivated__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_CMConfig__IsSystemGenerated__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_CMConfig__IsTaskPending__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_CMConfig__LegalEntityId__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_CMConfig__LocationId__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_CMConfig__PODate__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_CMConfig__PONumber__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_CMConfig__PartnerAccountId__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_CMConfig__PaymentTermId__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_CMConfig__PayoutFrequency__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_CMConfig__PriceListId__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_CMConfig__PricingDate__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_CMConfig__PurchaseId__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_CMConfig__QTCProfile__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_CMConfig__ReadyForActivationDate__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_CMConfig__ReadyForBillingDate__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_CMConfig__ReadyForFulfillmentDate__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_CMConfig__ReadyForRevRecDate__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_CMConfig__ShipToAccountId__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_CMConfig__SingleTransactionAdjustment__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_CMConfig__SourceChannel__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_CMConfig__SyncAssetChangesToAgreement__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -431,7 +431,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_CMConfig__UseType__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -441,7 +441,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_CMDSign__DocuSignEnvelopeId__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -466,7 +466,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_QPComply__RelatedProposalId__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -476,47 +476,47 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_Revenue2__LegalEntityId__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_Revenue2__RevRec_Forecast_End_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_Revenue2__RevRec_Forecast_IsActive__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_Revenue2__RevRec_Forecast_Period_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_Revenue2__RevRec_Forecast_Period_Number__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_Revenue2__RevRec_IsActive__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_Revenue2__RevRec_Period_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_Revenue2__RevRec_Period_Number__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus_SignCLM__OneSpanTransactionId__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -526,82 +526,82 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Account_Search_Field__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Account__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Activated_By__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Activated_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Agreement_Category__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Agreement_Number__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__AllowableOutputFormats__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Amendment_Effective_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Auto_Renew_Consent__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Auto_Renew_Term_Months__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Auto_Renewal_Terms__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Auto_Renewal__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Business_Hours__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Company_Signed_By__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Company_Signed_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Company_Signed_Title__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -611,7 +611,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Contract_End_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -621,7 +621,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Contract_Start_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -631,22 +631,22 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Description__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__DocumentReviewLevel__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__ExecutedDate__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Executed_Copy_Mailed_Out_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -746,7 +746,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__GoogleDriveEnabled__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -766,12 +766,12 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Initiation_Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Internal_Renewal_Notification_Days__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -781,27 +781,27 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__IsInternalReview__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__IsLocked__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Is_System_Update__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__LatestDocId__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Non_Standard_Legal_Language__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -821,32 +821,32 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Other_Party_Returned_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Other_Party_Sent_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Other_Party_Signed_By_Unlisted__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Other_Party_Signed_By__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Other_Party_Signed_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Other_Party_Signed_Title__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -856,27 +856,27 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Owner_Expiration_Notice__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Parent_Agreement__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Perpetual__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Primary_Contact__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Related_Opportunity__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -891,27 +891,27 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Renewal_Notice_Days__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Request_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Requestor__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__RetentionDate__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__RetentionPolicyId__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -921,17 +921,17 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__RiskRatingIconPath__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__RiskRatingLevel__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Risk_Rating__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -941,57 +941,57 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Source__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Special_Terms__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Status_Category__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Status__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Submit_Request_Mode__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Subtype__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Term_Months__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__TerminationComments__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Termination_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Termination_Notice_Days__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Termination_Notice_Issue_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1001,7 +1001,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Total_Contract_Value__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1011,37 +1011,37 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__VersionAware__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Version_Number__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Version__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Workflow_Trigger_Created_From_Clone__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Apttus__Workflow_Trigger_Viewed_Final__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Customer_Template__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.ERF_Favorite_Color__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1056,7 +1056,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.Payment_Terms_In_Month__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1066,7 +1066,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Apttus__APTS_Agreement__c.shouldSend__c</field>
         <readable>true</readable>
     </fieldPermissions>
