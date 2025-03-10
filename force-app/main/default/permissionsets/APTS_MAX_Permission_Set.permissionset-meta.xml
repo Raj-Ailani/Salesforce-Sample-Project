@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Permission Set to provide access the Max Application Components.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>APTS_MAX Permission Set</label>
+    <license>Salesforce</license>
+</PermissionSet>
