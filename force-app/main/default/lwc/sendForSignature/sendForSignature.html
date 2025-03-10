@@ -1,0 +1,29 @@
+<template>
+    <lightning-modal-header label="Send for Signature"></lightning-modal-header>
+    <lightning-modal-body>
+        <div class="slds-p-around_medium">
+            <lightning-input type="email" label="Recipient 1" value={recipient1} onchange={handleInputChange} data-field="recipient1" required></lightning-input>
+            <lightning-input type="email" label="Recipient 2" value={recipient2} onchange={handleInputChange} data-field="recipient2" required></lightning-input>
+            <lightning-combobox 
+                label="Select Document"
+                options={options}
+                value={selectedDocument}
+                onchange={handleDocumentChange}
+                required>
+            </lightning-combobox>
+        </div>
+        <template if:true={loading}>
+            <div class="slds-spinner_container">
+                <div role="status" class="slds-spinner slds-spinner_medium slds-spinner_brand">
+                    <span class="slds-assistive-text">Loading</span>
+                    <div class="slds-spinner__dot-a"></div>
+                    <div class="slds-spinner__dot-b"></div>
+                </div>
+            </div>
+        </template>
+    </lightning-modal-body>
+    <lightning-modal-footer>
+        <lightning-button label="Cancel" onclick={handleCancel} variant="neutral"></lightning-button>
+        <lightning-button label={actionLabel} onclick={handleSend} variant="brand" class="slds-m-left_small"></lightning-button>
+    </lightning-modal-footer>
+</template>
